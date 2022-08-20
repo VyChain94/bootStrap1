@@ -1,0 +1,51 @@
+$body-bg:rgb(0, 96, 205);
+$body-color:white;
+$primary:rgb(250, 250, 104);
+$font-family-sans-serif: 'EB Garamond', 'Trebuchet MS', sans-serif;
+// Photo by <a href="https://unsplash.com/es/@wolfgang_hasselmann?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Wolfgang Hasselmann</a> on <a href="https://unsplash.com/s/photos/hive?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+//   Photo by <a href="https://unsplash.com/@artrachen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Art Rachen</a> on <a href="https://unsplash.com/s/photos/honey?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+//   Photo by <a href="https://unsplash.com/@teracomp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Dave Phillips</a> on <a href="https://unsplash.com/s/photos/honey-stick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+//Photo by <a href="https://unsplash.com/@alexjones?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Jones</a> on <a href="https://unsplash.com/s/photos/pollen?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+   
+
+@import "~bootstrap/scss/bootstrap";
+
+
+.navbar-collapse{
+    justify-content: flex-end;
+}
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+}
+}
+
+.custombg{
+    background: black url(../../assests/daBeez.jpg);
+    background-size: cover;
+}
+
+.card{
+    border:none;
+    margin-top:15px ;
+}
+
+.card-body{
+    background:rgb(172, 129, 55);
+}
+
+.card-body p{
+    color:rgb(220, 210, 186);
+}
+
+
+
+.form-check-input {
+    background: green;
+}
+
+.form-control {
+    background:green;
+}
